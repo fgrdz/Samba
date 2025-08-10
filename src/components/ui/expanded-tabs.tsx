@@ -93,7 +93,7 @@ export function ExpandedTabs({
                 : "text-muted-foreground hover:bg-muted hover:text-foreground"
             )}
           >
-            <Icon size={20} />
+            <Icon size={20} className="text-popover-foreground"/>
             <AnimatePresence initial={false}>
               {hovered === index && (
                 <motion.span
